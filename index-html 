@@ -3,15 +3,15 @@
   <head>
     <meta charset=utf-8>
     <title>Help me choose</title>
+    <link href="./main.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <h1>Gillar du Mickis?</h1>
-    <img src="https://cdn.svenskalag.se/teamdata/images/8652/211761/image%202015-04-17%2010.16_500.jpg?0" alt="Mickis är snäll" width="500" height="500"/>
-    <div>
-      <div>
-        <input placeholder="Skriv här"
+    <h1>Help me choose between</h1>
+    <div class="inputSection">
+      <div class="inputs">
+        <input placeholder="Write here"></input>
       </div>
-      <button>Skicka</button>
+      <button class="addOption">Send</button>
     </div>
      <button>Vidare till nästa fråga</button>
   </body>
